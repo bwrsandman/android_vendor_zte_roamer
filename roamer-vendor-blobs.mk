@@ -17,11 +17,11 @@
 # All the blobs necessary for roamer
 PRODUCT_COPY_FILES += \
     vendor/zte/roamer/proprietary/dhd.ko:system/lib/dhd.ko \
-    #vendor/zte/roamer/proprietary/regcode:system/wifi/regcode \
-    #vendor/zte/roamer/proprietary/data.patch.hw2_0.bin:system/wifi/data.patch.hw2_0.bin \
-    #vendor/zte/roamer/proprietary/athwlan.bin.z77:system/wifi/athwlan.bin.z77 \
-    #vendor/zte/roamer/proprietary/athtcmd_ram.bin:system/wifi/athtcmd_ram.bin \
-    vendor/zte/roamer/proprietary/libaudio.so:system/lib/libaudio.so \
+	vendor/zte/roamer/proprietary/wlan/cfg.dat:system/etc/firmware/wlan/cfg.dat \
+	vendor/zte/roamer/proprietary/wlan/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
+	vendor/zte/roamer/proprietary/wlan/qcom_fw.bin:system/etc/firmware/wlan/qcom_fw.bin \
+   # vendor/zte/roamer/proprietary/libaudio.so:system/lib/libaudio.so \
+	# vendor/zte/roamer/proprietary/libaudioflinger.so:system/lib/libaudioflinger.so \
     vendor/zte/roamer/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/zte/roamer/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/zte/roamer/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/roamer/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/zte/roamer/proprietary/qmuxd:system/bin/qmuxd \
     vendor/zte/roamer/proprietary/akmd2:system/bin/akmd2 \
+	vendor/zte/roamer/proprietary/BCM2070B0_002.001.032.0518.0520.hcd:system/bin/BCM2070B0_002.001.032.0518.0520.hcd \
     vendor/zte/roamer/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/zte/roamer/proprietary/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/zte/roamer/proprietary/libdiag.so:system/lib/libdiag.so \
