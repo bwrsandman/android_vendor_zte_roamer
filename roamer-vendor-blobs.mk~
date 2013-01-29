@@ -16,8 +16,7 @@
 
 # Proprietary filed needed to build libraries
 PRODUCT_COPY_FILES += \
-    vendor/zte/roamer/proprietary/libaudio.so:obj/lib/libaudio.so \
-    vendor/zte/roamer/proprietary/libaudiopolicy.so:obj/lib/libaudiopolicy.so
+    vendor/zte/roamer/proprietary/libaudio.so:obj/lib/libaudio.so
 
 # All the blobs necessary for roamer
 PRODUCT_COPY_FILES += \
@@ -27,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/roamer/proprietary/wlan/qcom_fw.bin:system/etc/firmware/wlan/qcom_fw.bin \
     vendor/zte/roamer/proprietary/libaudio.so:system/lib/libaudio.so \
     vendor/zte/roamer/proprietary/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+    vendor/zte/roamer/proprietary/libaudioflinger.so:system/lib/libaudioflinger.so \
     vendor/zte/roamer/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/zte/roamer/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/zte/roamer/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
